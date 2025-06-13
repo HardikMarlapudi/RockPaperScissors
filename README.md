@@ -1,1 +1,1 @@
-# WordTranslator
+# RockPaperScissors
