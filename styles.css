@@ -1,0 +1,121 @@
+* {
+    background-color: lightblue;
+}
+
+#title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#selection {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+    display: block;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#rock {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10%;
+    background-color: aqua;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#rock:hover {
+    background-color: aquamarine;
+}
+
+#paper {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10%;
+    background-color: aqua;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#paper:hover {
+    background-color: aquamarine;
+}
+
+#scissors {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10%;
+    background-color: aqua;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#scissors:hover {
+    background-color: aquamarine;
+}
+
+#player{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#playerScore {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#computer {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#computerScore {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#displayResults {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: relative;
+    padding: 450px 100px;
+}
