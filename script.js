@@ -7,9 +7,9 @@ let computerScore = 0;
 
 function rock() {
     let computerChoice = Math.floor(Math.random() * 3) + 1;
-    if(computerChoice === "rock") {
+    if (computerChoice === "rock" && playerChoice === "rock") {
         document.getElementById("displayResults").innerHTML = "It's a tie!";
-    } else if (computerChoice === "paper") {
+    } else if (computerChoice === "paper" && playerChoice === "scissors") {
         document.getElementById("displayResults").innerHTML = "You Lose!";
         computerScore++;
     } else {
@@ -21,10 +21,10 @@ function rock() {
 
 function paper() {
     let computerChoice = Math.floor(Math.random() * 3 + 1);
-    if (computerChoice === "rock") {
+    if (computerChoice === "rock" && playerChoice === "paper") {
         document.getElementById("displayResults").innerHTML = "You Win!";
         playerScore++;
-    } else if (computerChoice === "paper") {
+    } else if (computerChoice === "paper" && playerChoice === "paper") {
         document.getElementById("displayResults").innerHTML = "It's a tie!";
     } else {
         document.getElementById("displayResults").innerHTML = "You Lose!";
@@ -35,10 +35,10 @@ function paper() {
 
 function scissors() {
     let computerChoice = Math.floor(Math.random() * 3 + 1);
-    if (computerChoice === "rock") {
+    if (computerChoice === "rock" && playerChoice === "papers") {
         document.getElementById("displayResults").innerHTML = "You Lose!";
         computerScore++;
-    } else if(computerChoice === "paper") {
+    } else if (computerChoice === "paper" && playerChoice === "scissors") {
         document.getElementById("displayResults").innerHTML = "You Win!";
     } else {
         document.getElementById("displayResults").innerHTML = "It's a Tie!";
