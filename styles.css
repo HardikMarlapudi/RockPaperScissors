@@ -1,0 +1,48 @@
+* {
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 1rem;
+    
+}
+
+.borderBox {
+    border: 0.5rem solid;
+    border-radius: 0.5rem;
+    width: auto;
+    height: auto;
+    margin: 1rem auto;
+}
+
+#choices {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+#rockItem {
+    font-size: 25px;
+    background-color: grey;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#paperItem {
+    font-size: 25px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#scissorItem {
+    font-size: 25px;
+    background-color: silver;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
