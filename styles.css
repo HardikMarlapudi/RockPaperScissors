@@ -2,24 +2,23 @@
     text-align: center;
     background-color: skyblue;
     border-radius: 1rem;
-    
+    font-size: 30px;
 }
 
 .borderBox {
+    display: inline-block;
     border: 0.5rem solid;
     border-radius: 0.5rem;
-    width: auto;
-    height: auto;
-    margin: 1rem auto;
 }
 
 #choices {
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;   
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0.5rem;
 }
 
 #rockItem {
-    font-size: 25px;
+    font-size: 1rem;
     background-color: grey;
     border: none;
     border-radius: 0.5rem;
@@ -27,7 +26,7 @@
 }
 
 #paperItem {
-    font-size: 25px;
+    font-size: 1rem;
     background-color: aliceblue;
     border: none;
     border-radius: 0.5rem;
@@ -35,7 +34,7 @@
 }
 
 #scissorItem {
-    font-size: 25px;
+    font-size: 1rem;
     background-color: silver;
     border: none;
     border-radius: 0.5rem;
@@ -43,6 +42,6 @@
 }
 
 #result {
-    font-size: 20px;
+    font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
 }

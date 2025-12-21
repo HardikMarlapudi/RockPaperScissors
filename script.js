@@ -1,22 +1,20 @@
 let userScore = 0;
 let computerScore = 0;
-let user = document.getElementById("user");
-let computer = document.getElementById("computer");
-let rockItem = document.getElementById("rockItem");
-let paperItem = document.getElementById("paperItem");
-let scissorItem = document.getElementById("scissorItem");
 
 function rock() {
     const user = Math.floor(Math.random() * 3 + 1);
     if(user == rockItem) {
         alert("It's a tie!");
+        return;
     } else if (user == paperItem) {
         computerScore++;
-        alert("Computer wins!");
+        alert("Computer wins! Paper beats Rock.");
+        return;
     } else {
         userScore++;
-        alert("You win!");
-        document.getElementById("userScore").innerHTML = userScore++;
+        alert("You win! Rock beats Scissors.");
+        document.getElementById("userScore").innerHTML = userScore;
+        return;
     }
 }
 
