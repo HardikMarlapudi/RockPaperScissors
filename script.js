@@ -31,6 +31,7 @@ function paper() {
         alert("Computer wins! Scissors beats paper.");
         computerScore++;
         document.getElementById("computerScore").innerHTML = computerScore;
+        return;
     }
 }
 
