@@ -18,7 +18,7 @@ function play(userChoice) {
     } else {
         computerScore++;
         document.getElementById("computerScore").innerHTML = computerScore;
-        alert(`You Lose! ${computerChoice} defeats ${userChoice}.`);
+        alert(`Computer Wins! ${computerChoice} defeats ${userChoice}.`);
     }
 }
 
